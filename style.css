@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 4rem;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0px 7px 19px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 7px 19px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 19px -7px rgba(0,0,0,0.75);
+}
+
+ul > a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+ul > a:hover {
+    color: rgb(195, 127, 0);
+}
